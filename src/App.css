@@ -55,7 +55,7 @@
 }
 
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 380px) {
   .leftpanel {
     width: 25vw;
     height: 100vh;
@@ -97,7 +97,7 @@
 }
 
 
-@media only screen and (min-width: 415px) {
+@media only screen and (max-width: 500px) {
   .rightpanel {
     min-width: 70vw;
     min-height: 100vh;
