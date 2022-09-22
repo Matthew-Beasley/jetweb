@@ -19,9 +19,9 @@ function App() {
       <div className="rightpanel">
        <div className="links">
         <Link to='/contact'>Contact</Link>
-        <Link to='/products'>Products</Link>
+        <Link to='/products'>Services</Link>
         <Link to='/portfolio'>Portfolio</Link>
-        <Link to='/aboutme'>About Me</Link>
+        <Link to='/aboutme'>Profile</Link>
        </div>
       </div>
     </div>

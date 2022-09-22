@@ -55,6 +55,84 @@
 }
 
 
+@media only screen and (min-width: 360px) {
+  .leftpanel {
+    width: 25vw;
+    height: 100vh;
+  }
+
+  .rightpanel {
+    min-width: 75vw;
+    min-height: 100vh;
+    background-image: url('../public/app-background-small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .app-heading {
+    font-size: 2.25rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    width: 80vw;
+    max-height: 30vh;
+  }
+  
+  .app-text {
+    margin-left: 1rem;
+    width: 50vw;
+    font-size: 1.25rem;
+  }
+
+  .links {
+    z-index: 3;
+    width: 100vh;
+    margin-top: 80vh;
+    margin-left: -.5rem;
+    font-size: .8rem;
+  }
+
+  .links > a {
+    margin-left: 1rem;
+  }
+}
+
+
+@media only screen and (min-width: 415px) {
+  .rightpanel {
+    min-width: 70vw;
+    min-height: 100vh;
+    background-image: url('../public/app-background-small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .app-heading {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .app-text {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 45vw;
+    font-size: 1.25rem;
+  }
+
+  .links {
+    z-index: 3;
+    width: 100vh;
+    margin-top: 80vh;
+    margin-left: -1rem;
+    font-size: 1rem;
+  }
+
+  .links > a {
+    margin-left: 1rem;
+  }
+}
+
+
 @media only screen and (min-width: 800px) {
   .app-heading {
     font-size: 4rem;
@@ -68,82 +146,7 @@
     font-size: 1.75rem;
   }
 }
-/*
-@media only screen and (min-width: 1200px) {
-  .app-heading {
-    font-size: 6rem;
-    margin-left: 3rem;
-    margin-top: 7.5rem;
-  }
-  
-  .app-text {
-    margin-top: 4rem;
-    margin-left: 3rem;
-    font-size: 2rem;
-  }
 
-  .links {
-    width: 100vh;
-    margin-top: 80vh;
-    margin-left: 4rem;
-    font-size: 2rem;
-  }
-
-  .links > a {
-    margin-left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .app-heading {
-    font-size: 5.5rem;
-    margin-left: 3rem;
-    margin-top: 6rem;
-  }
-  
-  .app-text {
-    margin-top: 3rem;
-    margin-left: 3rem;
-    font-size: 2rem;
-  }
-
-  .links {
-    width: 100vh;
-    margin-top: 80vh;
-    margin-left: 4rem;
-    font-size: 1.8rem;
-  }
-
-  .links > a {
-    margin-left: 4rem;
-  }
-}
-
-
-@media only screen and (min-width: 1500px) {
-  .app-heading {
-    font-size: 6rem;
-    margin-left: 3rem;
-    margin-top: 7rem;
-  }
-  
-  .app-text {
-    margin-top: 3rem;
-    margin-left: 3rem;
-    font-size: 2.5rem;
-  }
-
-  .links {
-    width: 100vh;
-    margin-top: 80vh;
-    margin-left: 5rem;
-    font-size: 1.75rem;
-  }
-
-  .links > a {
-    margin-left: 4rem;
-  }
-}*/
 
 @media only screen and (min-width: 1700px) {
   .app-heading {
@@ -170,6 +173,7 @@
   }
 }
 
+
 @media only screen and (min-width: 1900px) {
   .app-heading {
     font-size: 6.5rem;
@@ -178,16 +182,16 @@
   }
   
   .app-text {
-    margin-top: 3rem;
-    margin-left: 3rem;
-    font-size: 2rem;
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    font-size: 3rem;
   }
 
   .links {
     width: 100vh;
     margin-top: 80vh;
     margin-left: 5rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .links > a {
@@ -195,9 +199,10 @@
   }
 }
 
+
 @media only screen and (min-width: 2400px) {
   .app-heading {
-    font-size: 7.25rem;
+    font-size: 7rem;
     margin-left: 3rem;
     margin-top: 7rem;
   }
@@ -212,7 +217,7 @@
     width: 100vh;
     margin-top: 80vh;
     margin-left: 5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .links > a {
