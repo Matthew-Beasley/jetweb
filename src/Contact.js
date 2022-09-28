@@ -17,7 +17,12 @@ const Contact = () => {
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
-    });
+    })
+    .then(() => setName(''))
+    .then(() => setEmail(''))
+    .then(() => setPhone(''))
+    .then(() => setRi(''))
+    .then(() => alert('Your request was sent! Thank you for your inquiry.'));
   };
 
   return (
@@ -41,10 +46,10 @@ const Contact = () => {
           </div>
         </div>
         <form ref={form} id="contactform" onSubmit={(ev) => sendEmail(ev)}>
-          <input type="text" id="name" name="name" placeholder="name" onChange={(ev) => setName(ev.target.value)}></input>
-          <input type="text" id="phone" name="phone" placeholder="phone" onChange={(ev => setPhone(ev.target.value))}></input>
-          <input type="text" id="email" name="email" placeholder="email" onChange={(ev) => setEmail(ev.target.value)}></input> <br/>
-          <textarea id="ri" name="ri" placeholder='Ralative Information' value={ri} onChange={(ev) => setRi(ev.target.value)}></textarea>
+          <input type="text" id="name" name="name" placeholder="Name" value={name} onChange={(ev) => setName(ev.target.value)}></input>
+          <input type="text" id="phone" name="phone" placeholder="Phone" value={phone} onChange={(ev => setPhone(ev.target.value))}></input>
+          <input type="text" id="email" name="email" placeholder="Email" value={email} onChange={(ev) => setEmail(ev.target.value)}></input> <br/>
+          <textarea id="ri" name="ri" placeholder='Details' value={ri} onChange={(ev) => setRi(ev.target.value)}></textarea>
           <input id='submitbutton' type="submit" />
         </form>
       </div>
