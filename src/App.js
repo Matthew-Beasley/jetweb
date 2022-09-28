@@ -4,24 +4,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="leftpanel">
-        <div className="app-heading">
+    <div className='App'>
+      <div className='leftpanel'>
+        <div className='app-heading'>
           <p>
             JETWEB <br/>
             BRINGING YOUR WEB <br/> IDEAS TO LIFE
           </p>
         </div>
-        <div className="app-text">
+        <div className='app-text'>
           Compelling responsive web sites that will delight your audience, efficient robust backend solutions
         </div>
       </div>
-      <div className="rightpanel">
-       <div className="links">
+      <div className='rightpanel'>
+       <div className='links'>
         <Link to='/contact'>Contact</Link>
-        <Link to='/products'>Services</Link>
+        <Link to='/services'>Services</Link>
         <Link to='/portfolio'>Portfolio</Link>
-        <Link to='/aboutme'>Profile</Link>
+        <Link to='/profile'>Profile</Link>
        </div>
       </div>
     </div>
