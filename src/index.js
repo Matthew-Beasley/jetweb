@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import './App.css';
 import './Contact.css';
+import './Portfolio.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
