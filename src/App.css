@@ -38,20 +38,20 @@
   background-repeat: no-repeat;
 }
 
-.links {
+.applinks {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   width: 50vw;
   margin-top: 90vh;
   margin-left: 2rem;
-  font-size: 1.5rem;
   color: white;
 }
 
-.links > a {
+.applinks > a {
   color: white;
   margin-left: 4rem;
+  font-size: 1.5rem;
 }
 
 
@@ -68,15 +68,15 @@
     font-size: 3rem;
   }
 
-  .links {
+  .applinks {
     width: 50vw;
-    margin-top: 80vh;
+    margin-top: 85vh;
     margin-left: 5rem;
-    font-size: 2.5rem;
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -96,15 +96,15 @@
     font-size: 2.5rem;
   }
 
-  .links {
+  .applinks {
     width: 50vw;
     margin-top: 80vh;
     margin-left: 5rem;
-    font-size: 2rem;
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -122,15 +122,15 @@
     font-size: 2rem;
   }
 
-  .links {
+  .applinks {
     width: 50vw;
     margin-top: 80vh;
     margin-left: 5rem;
-    font-size: 2rem;
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: 4rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -148,15 +148,15 @@
     font-size: 1.75rem;
   }
 
-  .links {
+  .applinks {
     width: 50vw;
     margin-top: 90vh;
     margin-left: 2rem;
-    font-size: 1.75rem;
   }
   
-  .links > a {
+  .applinks > a {
     margin-left: 4rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -174,15 +174,23 @@
     font-size: 1.5rem;
   }
 
-  .links {
+  .applinks {
     width: 50vw;
     margin-top: 90vh;
     margin-left: 2rem;
-    font-size: 1.5rem;
   }
   
-  .links > a {
+  .applinks > a {
     margin-left: 4rem;
+    font-size: 1.9rem;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .applinks > a {
+    margin-left: 4rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -209,16 +217,17 @@
     font-size: 1.25rem;
   }
 
-  .links {
+  .applinks {
     z-index: 3;
     width: 50vw;
     margin-top: 80vh;
     margin-left: -1rem;
-    font-size: .9rem;
+
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: 1rem;
+    font-size: .9rem;
   }
 }
 
@@ -245,16 +254,16 @@
     font-size: 1.2rem;
   }
 
-  .links {
+  .applinks {
     z-index: 3;
     width: 50vw;
     margin-top: 80vh;
     margin-left: -.75rem;
-    font-size: .9rem;
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: .8rem;
+    font-size: .8rem;
   }
 }
 
@@ -281,16 +290,17 @@
     font-size: 1rem;
   }
 
-  .links {
+  .applinks {
     z-index: 3;
     width: 50vw;
     margin-top: 80vh;
     margin-left: -.75rem;
-    font-size: .75rem;
+
   }
 
-  .links > a {
+  .applinks > a {
     margin-left: .8rem;
+    font-size: .5rem;
   }
 }
 

@@ -8,33 +8,33 @@ const Portfolio = () => {
   const data = [
     {
      image: require('./images/thwartmehome.png'), 
-     caption:"Caption",
-     description:"Description Here"
+     caption:'https://www.thwartme.com/#/',
+     description:'Description Here'
     },
     {
       image:require('./images/thwartmegamepage.png'), 
-      caption:"Caption",
-      description:"Description Here"
+      caption:'https://www.thwartme.com/#/gamepage',
+      description:'Description Here'
      },
      {
       image:require('./images/ThwartMe.mp4'), 
-      caption:"Caption",
-      description:"Description Here"
+      caption:'https://www.thwartme.com/#/rules',
+      description:'Description Here'
      },
      {
        image:require('./images/adoptpet.png'), 
-       caption:"Caption",
-       description:"Description Here"
+       caption:'Adopt-a-pet.surge.sh',
+       description:'Description Here'
       },
       {
        image:require('./images/map.png'), 
-       caption:"Caption",
-       description:"Description Here"
+       caption:'http://trail-finder.surge.sh',
+       description:'Description Here'
       },
       {
         image:require('./images/climbs.png'), 
-        caption:"Caption",
-        description:"Description Here"
+        caption:'http://trail-finder.surge.sh',
+        description:'Description Here'
        }
     ]
   
@@ -60,12 +60,12 @@ const Portfolio = () => {
           return (
             <Carousel.Item>  
               <Carousel.Caption>
-                <h3>{slide.caption}</h3>
+                <a href={slide.caption}><h3>{slide.caption}</h3></a>
               </Carousel.Caption>      
               <img
-                className="d-block w-100"
+                className='d-block w-100'
                 src={slide.image}
-                alt="slider image"
+                alt='slider image'
               />  
             </Carousel.Item>
           )

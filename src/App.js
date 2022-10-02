@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <div className='rightpanel'>
-       <div className='links'>
+       <div className='applinks'>
         <Link to='/contact'>Contact</Link>
         <Link to='/services'>Services</Link>
         <Link to='/portfolio'>Portfolio</Link>
