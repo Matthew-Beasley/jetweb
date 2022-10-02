@@ -45,9 +45,9 @@ const Portfolio = () => {
 
   return (
     <div className='portfoliowrapper'>
-      <div className='contactheader'>
-        <div className='contactheadertext'>Portfolio</div> 
-        <div className='contactlinks'>
+      <div className='portfolioheader'>
+        <div className='portfolioheadertext'>Portfolio</div> 
+        <div className='portfoliolinks'>
           <Link to='/'>Home</Link>
           <Link to='/services'>Services</Link>
           <Link to='/portfolio'>Portfolio</Link>

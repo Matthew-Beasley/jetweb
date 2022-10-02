@@ -1,10 +1,119 @@
 .portfoliowrapper {
-    background-image: url('../public/contact-background.jpg');
-    height: 100vh;
+  background-image: url('../public/contact-background.jpg');
+  height: 100vh;
 }
 
 .carousel {
-    width: 70vw;
-    margin-left: 8vw;
-    margin-top: 4vh;
+  width: 70vw;
+  margin-left: 8vw;
+  margin-top: 4vh;
 }
+
+.portfolioheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 12vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.portfolioheadertext {
+font-size: 2rem;
+margin-top: 1rem;
+margin-left: 2rem;
+}
+
+.portfoliolinks {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-left: 7rem;
+margin-top: 2rem;
+}
+
+.portfoliolinks > a {
+font-size: 1.3rem;
+color: white;
+margin-left: 6rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .carousel {
+    width: 100vw;
+    margin-left: 0vw;
+    margin-top: 4vh;
+  }
+
+  .portfolioheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .portfolioheadertext {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .portfoliolinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: .5rem;
+    margin-top: 2rem;
+  }
+  
+  .portfoliolinks > a {
+    font-size: 1rem;
+    color: white;
+    margin-left: 2rem;
+  }
+} 
+
+
+
+@media only screen and (max-width: 350px) {
+  .carousel {
+    width: 100vw;
+    margin-left: 0vw;
+    margin-top: 4vh;
+  }
+
+  .portfolioheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .portfolioheadertext {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .portfoliolinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: .25rem;
+    margin-top: 1rem;
+  }
+  
+  .portfoliolinks > a {
+    font-size: .8rem;
+    color: white;
+    margin-left: 1.5rem;
+  }
+} 
