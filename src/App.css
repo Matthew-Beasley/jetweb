@@ -51,11 +51,11 @@
 .applinks > a {
   color: white;
   margin-left: 4rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
-@media only screen and (min-width: 2100px) {
+@media only screen and (min-width: 2101px) {
   .app-heading {
     font-size: 7rem;
     margin-left: 3rem;
@@ -76,7 +76,7 @@
 
   .applinks > a {
     margin-left: 4rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -104,7 +104,7 @@
 
   .applinks > a {
     margin-left: 4rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -130,12 +130,12 @@
 
   .applinks > a {
     margin-left: 4rem;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
   }
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
   .app-heading {
     font-size: 4rem;
     margin-left: 2rem;
@@ -156,7 +156,7 @@
   
   .applinks > a {
     margin-left: 4rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -182,7 +182,7 @@
   
   .applinks > a {
     margin-left: 4rem;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -190,7 +190,7 @@
 @media only screen and (max-width: 1200px) {
   .applinks > a {
     margin-left: 4rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 

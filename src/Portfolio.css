@@ -26,7 +26,7 @@
 }
 
 .portfolioheadertext {
-font-size: 2rem;
+font-size: 2.5rem;
 margin-top: 1rem;
 margin-left: 2rem;
 }
@@ -40,9 +40,9 @@ margin-top: 2rem;
 }
 
 .portfoliolinks > a {
-font-size: 1.3rem;
+font-size: 1.6rem;
 color: white;
-margin-left: 6rem;
+margin-left: 11rem;
 }
 
 @media only screen and (max-width: 2000px) {
@@ -63,7 +63,6 @@ margin-left: 6rem;
   }
   
   .portfolioheadertext {
-    font-size: 2rem;
     margin-top: 1rem;
     margin-left: 2rem;
   }
@@ -77,9 +76,7 @@ margin-left: 6rem;
   }
   
   .portfoliolinks > a {
-    font-size: 1rem;
     color: white;
-    margin-left: 2rem;
   }
 } 
 
@@ -102,7 +99,6 @@ margin-left: 6rem;
   }
   
   .portfolioheadertext {
-    font-size: 2rem;
     margin-top: 1rem;
     margin-left: 2rem;
   }
@@ -116,9 +112,7 @@ margin-left: 6rem;
   }
   
   .portfoliolinks > a {
-    font-size: 1rem;
     color: white;
-    margin-left: 2rem;
   }
 } 
 
