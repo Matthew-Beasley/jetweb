@@ -1,0 +1,351 @@
+.profilewrapper .contactheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 12vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.profilewrapper .contactheadertext {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.profilewrapper .contactlinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.profilewrapper a {
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 6rem;
+}
+
+.profilecontactcontent {
+  background-color: white;
+  height: 12vh;
+}
+
+.profilewrapper .emailphone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 7rem;
+  height: 5rem;
+  width: 100vw;
+  color: black;
+  font-size: 1.8rem;
+}
+
+.profilewrapper .phone {
+  margin-top: 2rem;
+}
+
+.profilewrapper .email {
+  margin-top: 2rem;
+  margin-left: 5vw;
+}
+
+.profilewrapper .email a {
+  font-size: 1.8rem;
+  color: blue;
+}
+
+.profilewrapper .emailphone img {
+  width: 300px;
+  height: 300px;
+  margin-top: 2rem;
+  margin-left: 15vw;
+}
+
+.profilepitch {
+  border: black 2px solid;
+  background-color: blanchedalmond;
+  width: 55vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  padding: 1rem;
+}
+
+.profilequalifications {
+  border: black 2px solid;
+  background-color: blanchedalmond;
+  width: 75vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  padding: 1rem;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .profilewrapper .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .profilewrapper .contactheadertext {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+  }
+  
+  .profilewrapper .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 2.6rem;
+  }
+  
+  .profilewrapper a {
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .profilecontactcontent {
+    background-color: white;
+    height: 8vh;
+  }
+  
+  .profilewrapper .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 100vw;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .profilewrapper .phone {
+    margin-top: 1rem;
+    min-width: 10rem;
+  }
+  
+  .profilewrapper .email {
+    margin-top: 1rem;
+    margin-left: 1vw;
+  }
+  
+  .profilewrapper .email a {
+    font-size: 1.2rem;
+    color: blue;
+  }
+  
+  .profilewrapper .emailphone img {
+    width: 110px;
+    height: 110px;
+    margin-top: 3rem;
+    margin-left: -55vw;
+    z-index: 2;
+  }
+  
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 28vw;
+    padding: 1rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 901px) {
+  .profilewrapper .emailphone {
+    margin-left: 4rem;
+  }
+
+  .profilecontactcontent .phone {
+    height: 5rem;
+    width: 20vw;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .profilecontactcontent .email a {
+    margin-left: 1vw;
+  }
+
+  .profilecontactcontent .email a {
+    height: 5rem;
+    width: 100vw;
+    color: blue;
+    font-size: 1.5rem;
+  }
+
+  .profilecontactcontent .emailphone img {
+    width: 250px;
+    height: 250px;
+    margin-top: 3rem;
+    margin-left: 5vwvw;
+  }
+
+  .profilewrapper .email {
+    margin-top: 2rem;
+  }
+
+  .profilecontent p {
+    font-size: 1.2rem;
+  }
+
+  .profilequalifications {
+    height: 30vh;
+    overflow-x: scroll;
+  } 
+}
+
+
+
+
+@media only screen and (min-width: 1300px) {
+  .profilewrapper .contactheadertext {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .profilewrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.8rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+
+  .profilewrapper .emailphone {
+    margin-left: 4rem;
+  }
+
+  .profilecontactcontent .phone {
+    height: 5rem;
+    width: 20vw;
+    color: black;
+    font-size: 2rem;
+  }
+
+  .profilecontactcontent .email a {
+    margin-left: 1vw;
+  }
+
+  .profilecontactcontent .email a {
+    height: 5rem;
+    width: 100vw;
+    color: blue;
+    font-size: 2rem;
+  }
+
+  .profilecontactcontent .emailphone img {
+    width: 300px;
+    height: 300px;
+    margin-top: 4rem;
+    margin-left: 16vw;
+  }
+
+  .profilewrapper .email {
+    margin-top: 2rem;
+  }
+
+  .profilecontent p {
+    font-size: 1.5rem;
+  }
+
+  .profilequalifications {
+    height: 30vh;
+    overflow-x: scroll;
+  } 
+}
+
+
+
+
+@media only screen and (min-width: 1300px) {
+  .profilewrapper .contactheadertext {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .profilewrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.8rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+
+  .profilewrapper .emailphone {
+    margin-left: 4rem;
+  }
+
+  .profilecontactcontent .phone {
+    height: 5rem;
+    width: 20vw;
+    color: black;
+    font-size: 2rem;
+  }
+
+  .profilecontactcontent .email a {
+    margin-left: 1vw;
+  }
+
+  .profilecontactcontent .email a {
+    height: 5rem;
+    width: 100vw;
+    color: blue;
+    font-size: 2rem;
+  }
+
+  .profilecontactcontent .emailphone img {
+    width: 300px;
+    height: 300px;
+    margin-top: 4rem;
+    margin-left: 26vw;
+  }
+
+  .profilewrapper .email {
+    margin-top: 2rem;
+  }
+
+  .profilecontent p {
+    font-size: 1.5rem;
+  }
+
+  .profilequalifications {
+    height: 30vh;
+    overflow-x: scroll;
+  } 
+}
