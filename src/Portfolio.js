@@ -60,7 +60,7 @@ const Portfolio = () => {
           return (
             <Carousel.Item>  
               <Carousel.Caption>
-                <a href={slide.caption}><h3>{slide.caption}</h3></a>
+                <a href={slide.caption}><div className='slidecaption'>{slide.caption}</div></a>
               </Carousel.Caption>      
               <img
                 className='d-block w-100'
