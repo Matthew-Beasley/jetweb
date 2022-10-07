@@ -85,7 +85,307 @@
 
 
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (max-width: 330px) {
+  .profilewrapper .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .profilewrapper .contactheadertext {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+  }
+  
+  .profilewrapper .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 2.6rem;
+  }
+  
+  .profilewrapper a {
+    font-size: .9rem;
+    color: white;
+    margin-left: .5rem;
+  }
+  
+  .profilecontactcontent {
+    background-color: white;
+    height: 8vh;
+  }
+  
+  .profilewrapper .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 100vw;
+    color: black;
+    font-size: .9rem;
+  }
+  
+  .profilewrapper .phone {
+    margin-top: 1rem;
+    min-width: 8rem;
+  }
+  
+  .profilewrapper .email {
+    margin-top: 1rem;
+    margin-left: 1vw;
+  }
+  
+  .profilewrapper .email a {
+    font-size: .9rem;
+    color: blue;
+  }
+  
+  .profilewrapper .emailphone img {
+    width: 80px;
+    height: 80px;
+    margin-top: 3rem;
+    margin-left: -56vw;
+    z-index: 2;
+  }
+  
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 30vw;
+    padding: 1rem;
+    font-size: .9rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+    font-size: .9rem;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 370px) {
+  .profilewrapper .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .profilewrapper .contactheadertext {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+  }
+  
+  .profilewrapper .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 2.6rem;
+  }
+  
+  .profilewrapper a {
+    font-size: .9rem;
+    color: white;
+    margin-left: .5rem;
+  }
+  
+  .profilecontactcontent {
+    background-color: white;
+    height: 8vh;
+  }
+  
+  .profilewrapper .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 100vw;
+    color: black;
+    font-size: .9rem;
+  }
+  
+  .profilewrapper .phone {
+    margin-top: 1rem;
+    min-width: 8rem;
+  }
+  
+  .profilewrapper .email {
+    margin-top: 1rem;
+    margin-left: 1vw;
+  }
+  
+  .profilewrapper .email a {
+    font-size: .9rem;
+    color: blue;
+  }
+  
+  .profilewrapper .emailphone img {
+    width: 90px;
+    height: 90px;
+    margin-top: 3rem;
+    margin-left: -41vw;
+    z-index: 2;
+  }
+  
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 28vw;
+    padding: 1rem;
+    font-size: .9rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+    font-size: .9rem;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 400px) {
+  .profilewrapper .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .profilewrapper .contactheadertext {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+  }
+  
+  .profilewrapper .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 2.6rem;
+  }
+  
+  .profilewrapper a {
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .profilecontactcontent {
+    background-color: white;
+    height: 8vh;
+  }
+  
+  .profilewrapper .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 100vw;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .profilewrapper .phone {
+    margin-top: 1rem;
+    min-width: 10rem;
+  }
+  
+  .profilewrapper .email {
+    margin-top: 1rem;
+    margin-left: 1vw;
+  }
+  
+  .profilewrapper .email a {
+    font-size: 1.2rem;
+    color: blue;
+  }
+  
+  .profilewrapper .emailphone img {
+    width: 110px;
+    height: 110px;
+    margin-top: 3rem;
+    margin-left: -55vw;
+    z-index: 2;
+  }
+
+  .profilecontent p {
+    font-size: 1rem;
+  }
+  
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 28vw;
+    padding: 1rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 900px) {
   .profilewrapper .contactheader {
     display: flex;
     flex-direction: row;
@@ -183,23 +483,35 @@
 
 
 @media only screen and (min-width: 901px) {
+  .profilewrapper .contactheadertext {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .profilewrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.2rem;
+    margin-left: 7rem;
+    margin-top: 0rem;
+  }
+
   .profilewrapper .emailphone {
     margin-left: 4rem;
   }
 
   .profilecontactcontent .phone {
-    height: 5rem;
+    height: 3rem;
     width: 20vw;
     color: black;
     font-size: 1.5rem;
+
   }
 
   .profilecontactcontent .email a {
-    margin-left: 1vw;
-  }
-
-  .profilecontactcontent .email a {
-    height: 5rem;
+    height: 3rem;
     width: 100vw;
     color: blue;
     font-size: 1.5rem;
@@ -209,21 +521,43 @@
     width: 250px;
     height: 250px;
     margin-top: 3rem;
-    margin-left: 5vwvw;
+    margin-left: 18vw;
   }
 
   .profilewrapper .email {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .profilecontent p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .profilequalifications {
     height: 30vh;
     overflow-x: scroll;
   } 
+
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 55vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+  }
 }
 
 
@@ -250,10 +584,92 @@
   }
 
   .profilecontactcontent .phone {
-    height: 5rem;
+    height: 3rem;
     width: 20vw;
     color: black;
     font-size: 2rem;
+
+  }
+
+  .profilecontactcontent .email a {
+    height: 3rem;
+    width: 100vw;
+    color: blue;
+    font-size: 2rem;
+  }
+
+  .profilecontactcontent .emailphone img {
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem;
+    margin-left: 18vw;
+  }
+
+  .profilewrapper .email {
+    margin-top: 1rem;
+  }
+
+  .profilecontent p {
+    font-size: 1.5rem;
+  }
+
+  .profilequalifications {
+    height: 30vh;
+    overflow-x: scroll;
+  } 
+
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 55vw;
+    height: 30vh;
+    overflow-x: scroll;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1800px) {
+  .profilewrapper .contactheadertext {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .profilewrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 2.2rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+
+  .profilewrapper .emailphone {
+    margin-left: 4rem;
+  }
+
+  .profilecontactcontent .phone {
+    height: 3rem;
+    width: 20vw;
+    color: black;
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
 
   .profilecontactcontent .email a {
@@ -264,14 +680,14 @@
     height: 5rem;
     width: 100vw;
     color: blue;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .profilecontactcontent .emailphone img {
-    width: 300px;
-    height: 300px;
-    margin-top: 4rem;
-    margin-left: 16vw;
+    width: 350px;
+    height: 350px;
+    margin-top: 4.5rem;
+    margin-left: 25vw;
   }
 
   .profilewrapper .email {
@@ -279,7 +695,7 @@
   }
 
   .profilecontent p {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   .profilequalifications {
@@ -291,9 +707,10 @@
 
 
 
-@media only screen and (min-width: 1300px) {
+
+@media only screen and (min-width: 2400px) {
   .profilewrapper .contactheadertext {
-    font-size: 2.4rem;
+    font-size: 4.5rem;
     margin-top: 1rem;
     margin-left: 2rem;
   }
@@ -302,20 +719,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin-left: 7rem;
     margin-top: 1rem;
   }
 
   .profilewrapper .emailphone {
-    margin-left: 4rem;
+    margin-left: 8rem;
   }
 
   .profilecontactcontent .phone {
-    height: 5rem;
+    height: 3rem;
     width: 20vw;
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 2rem;
   }
 
   .profilecontactcontent .email a {
@@ -326,14 +744,14 @@
     height: 5rem;
     width: 100vw;
     color: blue;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .profilecontactcontent .emailphone img {
-    width: 300px;
-    height: 300px;
-    margin-top: 4rem;
-    margin-left: 26vw;
+    width: 450px;
+    height: 450px;
+    margin-top: 4.5rem;
+    margin-left: 25vw;
   }
 
   .profilewrapper .email {
@@ -341,11 +759,28 @@
   }
 
   .profilecontent p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
-  .profilequalifications {
+  .profilepitch {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 55vw;
     height: 30vh;
     overflow-x: scroll;
-  } 
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+  }
+  
+  .profilequalifications {
+    border: black 2px solid;
+    background-color: lightgoldenrodyellow;
+    width: 91.5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+    height: 30vh;
+    overflow-x: scroll;
+  }
 }
