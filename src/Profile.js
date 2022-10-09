@@ -19,17 +19,14 @@ const Profile = () => {
           <Link to='/profile'>Profile</Link>
         </div>
       </div>
-      <div className='profilecontactcontent'>
-        <div className='emailphone'>
-          <div className='phone'>
-            (425)-328-8161
-          </div>
-          <div className='email'>
-            <a href="mailto:matt@jetweb.systems">matt@jetweb.systems</a>
-          </div>
-          <img src={headshot} />
-        </div>
-      </div>
+
+      <p className='profilephone'>
+        (425)-328-8161
+        <a className='profileemail' href="mailto:matt@jetweb.systems">matt@jetweb.systems</a>
+      </p>
+
+      <img className='profileheadshot' src={headshot} />
+
       <div className='profilecontent' >
         <div className='profilepitch'>
           <p>{pitch1}</p>
