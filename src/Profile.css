@@ -1,7 +1,8 @@
+
 .profilewrapper {
   background-image: url('../public/codebackground.jpg');
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .profilewrapper .contactheader {
@@ -371,100 +372,73 @@
 
 
 @media only screen and (max-width: 500px) {
-  .profilewrapper .contactheader {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 12vh;
-    width: 100vw;
-    background-color: black;
-    color: white;
-  }
-  
   .profilewrapper .contactheadertext {
-    font-size: 1.4rem;
-    margin-top: .5rem;
-    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    margin-left: .5rem;
   }
-  
+
   .profilewrapper .contactlinks {
+    margin-left: -4.4rem;
+  } 
+  
+  .profilewrapper .contactlinks a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 0rem;
-    margin-top: 2.6rem;
+    font-size: .8rem;
+    margin-left: 1.9rem;
+    margin-top: 1.6rem;
   }
-  
-  .profilewrapper a {
-    font-size: 1.1rem;
-    color: white;
-    margin-left: 1rem;
-  }
-  
-  .profilecontactcontent {
-    background-color: white;
-    height: 8vh;
-  }
-  
-  .profilewrapper .emailphone {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 1rem;
-    height: 5rem;
+
+  .profilephone {
+    height: 3rem;
     width: 100vw;
-    color: black;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-left: .5rem;
   }
-  
-  .profilewrapper .phone {
-    margin-top: 1rem;
-    min-width: 10rem;
-  }
-  
-  .profilewrapper .email {
-    margin-top: 1rem;
-    margin-left: 1vw;
-  }
-  
-  .profilewrapper .email a {
-    font-size: 1.2rem;
-    color: blue;
-  }
-  
-  .profilewrapper .emailphone img {
-    width: 110px;
-    height: 110px;
-    margin-top: 3rem;
-    margin-left: -55vw;
+
+  .profilephone a {
+    height: 5rem;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
     z-index: 2;
   }
 
-  .profilecontent p {
-    font-size: 1rem;
+  .profileheadshot {
+    width: 100px;
+    height: 100px;
+    margin-top: -1rem;
+    margin-left: 32vw;
+    border-radius: 50%;
   }
-  
+
+  .profilecontent {
+    margin-top: 0rem;
+  }
+
   .profilepitch {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    height: 30vh;
     overflow-x: scroll;
-    margin-left: 5vw;
-    margin-top: 28vw;
-    padding: 1rem;
+    width: 79%;
+    height: 10rem;
+    margin-left: .5rem;
   }
-  
+
+  .profilecontent p {
+    font-size: .8rem;
+  }
+
   .profilequalifications {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-    height: 30vh;
     overflow-x: scroll;
-  }
+    width: 79%;
+    height: 10rem;
+    margin-left: .5rem;
+  } 
 }
 
 
@@ -473,99 +447,75 @@
 
 
 @media only screen and (max-width: 400px) {
-  .profilewrapper .contactheader {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 12vh;
-    width: 100vw;
-    background-color: black;
-    color: white;
-  }
-  
   .profilewrapper .contactheadertext {
-    font-size: 1.4rem;
-    margin-top: .5rem;
-    margin-left: 1rem;
-  }
-  
-  .profilewrapper .contactlinks {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 0rem;
-    margin-top: 2.6rem;
-  }
-  
-  .profilewrapper a {
-    font-size: .9rem;
-    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
     margin-left: .5rem;
   }
+
+  .profilewrapper .contactlinks {
+    margin-left: -4.4rem;
+  } 
   
-  .profilecontactcontent {
-    background-color: white;
-    height: 8vh;
-  }
-  
-  .profilewrapper .emailphone {
+  .profilewrapper .contactlinks a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 1rem;
-    height: 5rem;
+    font-size: .8rem;
+    margin-left: 1.9rem;
+    margin-top: 1.4rem;
+  }
+
+  .profilephone {
+    height: 3rem;
     width: 100vw;
-    color: black;
-    font-size: .9rem;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: .5rem;
   }
-  
-  .profilewrapper .phone {
-    margin-top: 1rem;
-    min-width: 8rem;
-  }
-  
-  .profilewrapper .email {
-    margin-top: 1rem;
-    margin-left: 1vw;
-  }
-  
-  .profilewrapper .email a {
-    font-size: .9rem;
-    color: blue;
-  }
-  
-  .profilewrapper .emailphone img {
-    width: 90px;
-    height: 90px;
-    margin-top: 3rem;
-    margin-left: -41vw;
+
+  .profilephone a {
+    height: 5rem;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
     z-index: 2;
   }
-  
+
+  .profileheadshot {
+    width: 100px;
+    height: 100px;
+    margin-top: -1rem;
+    margin-left: 32vw;
+    border-radius: 50%;
+  }
+
+  .profilecontent {
+    margin-top: 0rem;
+  }
+
   .profilepitch {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    height: 30vh;
     overflow-x: scroll;
-    margin-left: 5vw;
-    margin-top: 28vw;
-    padding: 1rem;
-    font-size: .9rem;
+    width: 79%;
+    height: 10rem;
+    margin-left: .5rem;
   }
-  
+
+  .profilecontent p {
+    font-size: .8rem;
+  }
+
   .profilequalifications {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-    height: 30vh;
     overflow-x: scroll;
-    font-size: .9rem;
-  }
-}
+    width: 79%;
+    height: 10rem;
+    margin-left: .5rem;
+  } 
+}  
+
 
 
 
@@ -574,96 +524,72 @@
 
 
 @media only screen and (max-width: 350px) {
-  .profilewrapper .contactheader {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 12vh;
-    width: 100vw;
-    background-color: black;
-    color: white;
-  }
-  
   .profilewrapper .contactheadertext {
-    font-size: 1.4rem;
-    margin-top: .5rem;
-    margin-left: 1rem;
-  }
-  
-  .profilewrapper .contactlinks {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 0rem;
-    margin-top: 2.6rem;
-  }
-  
-  .profilewrapper a {
-    font-size: .9rem;
-    color: white;
+    font-size: 1.1rem;
+    margin-top: .7rem;
     margin-left: .5rem;
   }
+
+  .profilewrapper .contactlinks {
+    margin-left: -3rem;
+  } 
   
-  .profilecontactcontent {
-    background-color: white;
-    height: 8vh;
-  }
-  
-  .profilewrapper .emailphone {
+  .profilewrapper .contactlinks a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    font-size: .7rem;
     margin-left: 1rem;
-    height: 5rem;
+    margin-top: .7rem;
+  }
+
+  .profilephone {
+    height: 3rem;
     width: 100vw;
-    color: black;
-    font-size: .9rem;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1.2rem;
+    margin-left: .3rem;
   }
-  
-  .profilewrapper .phone {
-    margin-top: 1rem;
-    min-width: 8rem;
-  }
-  
-  .profilewrapper .email {
-    margin-top: 1rem;
-    margin-left: 1vw;
-  }
-  
-  .profilewrapper .email a {
-    font-size: .9rem;
-    color: blue;
-  }
-  
-  .profilewrapper .emailphone img {
-    width: 80px;
-    height: 80px;
-    margin-top: 3rem;
-    margin-left: -56vw;
+
+  .profilephone a {
+    height: 5rem;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    color: white;
+    font-size: .8rem;
     z-index: 2;
   }
-  
+
+  .profileheadshot {
+    width: 75px;
+    height: 75px;
+    margin-top: -2rem;
+    margin-left: 32vw;
+    border-radius: 50%;
+  }
+
+  .profilecontent {
+    margin-top: 0rem;
+  }
+
   .profilepitch {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    height: 30vh;
     overflow-x: scroll;
-    margin-left: 5vw;
-    margin-top: 30vw;
-    padding: 1rem;
-    font-size: .9rem;
+    width: 78.5%;
+    height: 7rem;
+    margin-left: .5rem;
   }
-  
+
+  .profilecontent p {
+    font-size: .65rem;
+  }
+
   .profilequalifications {
-    border: black 2px solid;
-    background-color: lightgoldenrodyellow;
-    width: 91.5vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-    height: 30vh;
     overflow-x: scroll;
-    font-size: .9rem;
-  }
-}
+    width: 78.5%;
+    height: 8rem;
+    margin-left: .5rem;
+  } 
+}  
+
