@@ -368,6 +368,76 @@
 
 
 
+@media only screen and (max-width: 900px) {
+  .profilewrapper .contactheadertext {
+    font-size: 1.5rem;
+    margin-top: .7rem;
+    margin-left: 2rem;
+  }
+
+  .profilewrapper .contactlinks {
+    margin-left: -1rem;
+  } 
+  
+  .profilewrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: .9rem;
+    margin-left: 3rem;
+    margin-top: .4rem;
+  }
+
+  .profilephone {
+    height: 3rem;
+    width: 55vw;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 15vw;
+  }
+
+  .profilephone a {
+    height: 5rem;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+
+  .profileheadshot {
+    width: 125px;
+    height: 125px;
+    margin-top: 0rem;
+    margin-left: 65vw;
+    border-radius: 50%;
+  }
+
+  .profilecontent {
+    margin-top: -9rem;
+  }
+
+  .profilecontent p {
+    font-size: .8rem;
+  }
+
+  .profilepitch {
+    height: 25vh;
+    overflow-x: scroll;
+  }
+
+  .profilequalifications {
+    height: 30vh;
+    overflow-x: scroll;
+  } 
+}
+
+
+
+
+
 
 
 
@@ -379,65 +449,65 @@
   }
 
   .profilewrapper .contactlinks {
-    margin-left: -4.4rem;
+    margin-left: -4.2rem;
   } 
   
   .profilewrapper .contactlinks a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: .8rem;
+    font-size: 1rem;
     margin-left: 1.9rem;
-    margin-top: 1.6rem;
+    margin-top: 2.2rem;
   }
 
   .profilephone {
     height: 3rem;
     width: 100vw;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
-    margin-left: .5rem;
+    margin-left: 2rem;
   }
 
   .profilephone a {
     height: 5rem;
     width: 20vw;
-    margin-left: 5vw;
-    margin-top: 2rem;
+    margin-left: 7vw;
+    margin-top: 2.5rem;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     z-index: 2;
   }
 
   .profileheadshot {
     width: 100px;
     height: 100px;
-    margin-top: -1rem;
-    margin-left: 32vw;
+    margin-top: 0rem;
+    margin-left: 38vw;
     border-radius: 50%;
   }
 
   .profilecontent {
-    margin-top: 0rem;
+    margin-top: 2rem;
   }
 
   .profilepitch {
     overflow-x: scroll;
-    width: 79%;
+    width: 91.5vw;
     height: 10rem;
-    margin-left: .5rem;
+    margin-right: .4vw;
   }
 
   .profilecontent p {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .profilequalifications {
     overflow-x: scroll;
-    width: 79%;
+    width: 91.5vw;
     height: 10rem;
-    margin-left: .5rem;
+    margin-right: .4vw;
   } 
 }
 
@@ -450,11 +520,11 @@
   .profilewrapper .contactheadertext {
     font-size: 1.2rem;
     margin-top: 1rem;
-    margin-left: .5rem;
+    margin-left: 1rem;
   }
 
   .profilewrapper .contactlinks {
-    margin-left: -4.4rem;
+    margin-left: -4rem;
   } 
   
   .profilewrapper .contactlinks a {
@@ -472,7 +542,7 @@
     color: white;
     font-size: 1rem;
     margin-top: 1.5rem;
-    margin-left: .5rem;
+    margin-left: 2rem;
   }
 
   .profilephone a {
@@ -489,7 +559,7 @@
     width: 100px;
     height: 100px;
     margin-top: -1rem;
-    margin-left: 32vw;
+    margin-left: 35vw;
     border-radius: 50%;
   }
 
@@ -499,7 +569,7 @@
 
   .profilepitch {
     overflow-x: scroll;
-    width: 79%;
+    width: 96vw;
     height: 10rem;
     margin-left: .5rem;
   }
@@ -510,7 +580,7 @@
 
   .profilequalifications {
     overflow-x: scroll;
-    width: 79%;
+    width: 96vw;
     height: 10rem;
     margin-left: .5rem;
   } 
