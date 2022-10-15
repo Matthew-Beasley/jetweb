@@ -1,4 +1,15 @@
-.contactheader {
+
+.contactwrapper {
+  background-image: url('../public/codebackground.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+@media only screen and (min-width: 2000px) {
+  .contactheader {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -6,75 +17,787 @@
     width: 100vw;
     background-color: black;
     color: white;
+  }
+
+  .contactheadertext {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+
+  a {
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 5rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 75vw;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 3.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 10vw;
+    height: 3.5rem;
+  }
+
+  .textinputs {
+    width: 85.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    font-size: 1.5rem;
+  }
+
+  .formname {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2rem;
+  }
+
+  .formemail {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2rem;
+  }
+
+  .formphone {
+    margin: 4rem 0rem 2rem 7rem;
+    min-width: 26.7%;
+    height: 2rem;
+  }
+
+  textarea {
+    width: 80vw;
+    height: 300px;
+    margin-left: 7rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.5rem;
+    resize: none;
+  }
+  .submitbutton {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.8rem;
+    line-height: 50%;
+    margin-left: 45vw;
+    margin-top: 5rem;
+  }
 }
 
-.contactheadertext {
-  font-size: 2rem;
-  margin-top: 1rem;
-  margin-left: 2rem;
+
+
+
+
+@media only screen and (max-width: 1999px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+
+  .contactheadertext {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 4.2rem;
+  }
+
+  a {
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 5rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 75vw;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 2.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 10vw;
+    height: 2.5rem;
+  }
+
+  .textinputs {
+    width: 85.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    font-size: 1.5rem;
+  }
+
+  .formname {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formemail {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formphone {
+    margin: 4rem 0rem 2rem 7rem;
+    min-width: 26.7%;
+    height: 2.5rem;
+  }
+
+  textarea {
+    width: 80vw;
+    height: 300px;
+    margin-left: 7rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.7rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 8rem;
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 50%;
+    margin-left: 42vw;
+    margin-top: 5rem;
+  }
 }
 
-.contactlinks {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-left: 7rem;
-  margin-top: 2rem;
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+
+  .contactheadertext {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 0rem;
+    margin-top: 4.2rem;
+  }
+
+  a {
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 5rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 75vw;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 2.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 10vw;
+    height: 2.5rem;
+  }
+
+  .textinputs {
+    width: 85.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    font-size: 1.5rem;
+  }
+
+  .formname {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formemail {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formphone {
+    margin: 4rem 0rem 2rem 7rem;
+    min-width: 26.7%;
+    height: 2.5rem;
+  }
+
+  textarea {
+    width: 80vw;
+    height: 300px;
+    margin-left: 7rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.7rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 7rem;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 50%;
+    margin-left: 45vw;
+    margin-top: 5rem;
+  }
 }
 
-a {
-  font-size: 1.3rem;
-  color: white;
-  margin-left: 6rem;
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+
+  .contactheadertext {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+
+  a {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4.5rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    height: 5rem;
+    width: 75vw;
+    color: white;
+    font-size: 1.6rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 3.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 10vw;
+    height: 3.5rem;
+  }
+
+  .textinputs {
+    width: 85.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    font-size: 1.3rem;
+  }
+
+  .formname {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formemail {
+    margin: 4rem 0rem 2rem 7rem;
+    width: 26.7%;
+    height: 2.5rem;
+  }
+
+  .formphone {
+    margin: 4rem 0rem 2rem 7rem;
+    min-width: 26.7%;
+    height: 2.5rem;
+  }
+
+  textarea {
+    width: 81.5vw;
+    height: 250px;
+    margin-left: 7rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.3rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    line-height: 50%;
+    margin-left: 45vw;
+    margin-top: 3rem;
+  }
 }
 
-.contactcontent {
-  background-image: url('../public/contact-background.jpg');
-  height: 88vh;
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+
+  .contactheadertext {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: -4rem;
+    margin-top: 3rem;
+  }
+
+  a {
+    font-size: 1rem;
+    color: white;
+    margin-left: 2rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    height: 3rem;
+    width: 100vw;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 3.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 7vw;
+    height: 3.5rem;
+  }
+
+  .textinputs {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+
+  .formname {
+    margin: 1rem 0rem 2rem 0rem;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .formemail {
+    margin: 1rem 0rem 2rem 0rem;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .formphone {
+    margin: 1rem 0rem 2rem 0rem;
+    min-width: 100%;
+    height: 2.5rem;
+  }
+
+  textarea {
+    width: 100vw;
+    height: 150px;
+    margin-left: 0rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 6rem;
+    height: 1.9rem;
+    font-size: 1.3rem;
+    line-height: 50%;
+    margin-left: 40vw;
+    margin-top: 2rem;
+  }
 }
 
-.emailphone {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-left: 7rem;
-  height: 5rem;
-  width: 100vw;
-  color: white;
-  font-size: 1.6rem;
+
+
+
+
+@media only screen and (max-width: 430px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    margin-bottom: -3rem;
+  }
+
+  .contactheadertext {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: -4rem;
+    margin-top: 3rem;
+  }
+
+  a {
+    font-size: .9rem;
+    color: white;
+    margin-left: 2rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 100vw;
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 3.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 7vw;
+    height: 3.5rem;
+  }
+
+  .textinputs {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+
+  .formname {
+    margin: 2rem 0rem 2rem 0rem;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .formemail {
+    margin: 1rem 0rem 2rem 0rem;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .formphone {
+    margin: 1rem 0rem 2rem 0rem;
+    min-width: 100%;
+    height: 2.5rem;
+  }
+
+  textarea {
+    width: 100vw;
+    height: 150px;
+    margin-left: 0rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 6rem;
+    height: 1.9rem;
+    font-size: 1.3rem;
+    line-height: 50%;
+    margin-left: 40vw;
+    margin-top: 2rem;
+  }
 }
 
-.phone {
-  margin-top: 4rem;
+
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+  .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    margin-bottom: -3rem;
+  }
+
+  .contactheadertext {
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+
+  .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: -2rem;
+    margin-top: 2.3rem;
+  }
+
+  a {
+    font-size: .8rem;
+    color: white;
+    margin-left: 1rem;
+  }
+
+  .emailphone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 100vw;
+    color: white;
+    font-size: .9rem;
+  }
+
+  .phone {
+    margin-top: 4rem;
+    height: 3.5rem;
+  }
+
+  .email {
+    margin-top: 4rem;
+    margin-left: 7vw;
+    height: 3.5rem;
+  }
+
+  .textinputs {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    font-size: .8rem;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+
+  .formname {
+    margin: 2rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 2rem;
+  }
+
+  .formemail {
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 2rem;
+  }
+
+  .formphone {
+    margin: 1rem 0rem 0rem 0rem;
+    min-width: 100%;
+    height: 2rem;
+  }
+
+  textarea {
+    width: 100vw;
+    height: 100px;
+    margin-left: 0rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    font-size: .8rem;
+    resize: none;
+  }
+
+  .submitbutton {
+    width: 6rem;
+    height: 1.6rem;
+    font-size: 1rem;
+    line-height: 50%;
+    margin-left: 38vw;
+    margin-top: 2rem;
+  }
 }
 
-.email {
-  margin-top: 4rem;
-  margin-left: 10vw;
-}
 
-input {
-  margin: 4rem 0rem 2rem 7rem;
-  width: 19.6vw;
-}
 
-textarea {
-  width: 80vw;
-  height: 350px;
-  margin-left: 7rem;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
 
-#submitbutton {
-  width: 6rem;
-  height: 1.8rem;
-  font-size: 1rem;
-  line-height: 50%;
-  margin-left: 45vw;
-}
+
+
+
+

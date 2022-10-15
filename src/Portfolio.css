@@ -45,6 +45,54 @@ color: white;
 margin-left: 11rem;
 }
 
+
+
+@media only screen and (min-width: 2001px) {
+  .carousel {
+    width: 60vw;
+    margin-left: 9vw;
+    margin-top: 0vh;
+  }
+
+  .slidecaption {
+    font-size: 2rem;
+  }
+
+  .portfolioheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 12vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .portfolioheadertext {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 2.6rem;
+  }
+  
+  .portfoliolinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 15rem;
+    margin-top: 0rem;
+  }
+  
+  .portfoliolinks > a {
+    font-size: 1.9rem;
+    margin-left: 4rem;
+    color: white;
+  }
+}
+
+
+
+
+
 @media only screen and (max-width: 2000px) {
   .carousel {
     width: 60vw;
@@ -98,7 +146,7 @@ margin-left: 11rem;
   }
 
   .slidecaption {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .portfolioheader {
@@ -114,18 +162,19 @@ margin-left: 11rem;
   .portfolioheadertext {
     margin-top: 1rem;
     margin-left: 2rem;
+    font-size: 2.2rem;
   }
   
   .portfoliolinks {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 5rem;
-    margin-top: 1.5rem;
+    margin-left: 15rem;
+    margin-top: 0rem;
   }
   
   .portfoliolinks > a {
-    font-size: 1.9rem;
+    font-size: 1.2rem;
     margin-left: 3rem;
     color: white;
   }

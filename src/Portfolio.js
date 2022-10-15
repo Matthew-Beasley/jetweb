@@ -49,8 +49,8 @@ const Portfolio = () => {
         <div className='portfolioheadertext'>Portfolio</div> 
         <div className='portfoliolinks'>
           <Link to='/'>Home</Link>
+          <Link to='/contact'>Contact</Link>
           <Link to='/services'>Services</Link>
-          <Link to='/portfolio'>Portfolio</Link>
           <Link to='/profile'>Profile</Link>
         </div>
       </div>
