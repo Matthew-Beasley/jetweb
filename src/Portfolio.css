@@ -62,7 +62,7 @@ margin-left: 11rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 12vh;
+    height: 12rem;
     width: 100vw;
     background-color: black;
     color: white;
@@ -108,7 +108,7 @@ margin-left: 11rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 16vh;
+    height: 12rem;
     width: 100vw;
     background-color: black;
     color: white;
@@ -138,7 +138,7 @@ margin-left: 11rem;
 
 
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
   .carousel {
     width: 65vw;
     margin-left: 9vw;
@@ -153,7 +153,52 @@ margin-left: 11rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 17vh;
+    height: 10rem;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .portfolioheadertext {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+  }
+  
+  .portfoliolinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 15rem;
+    margin-top: 0rem;
+  }
+  
+  .portfoliolinks > a {
+    font-size: 1.9rem;
+    margin-left: 3rem;
+    color: white;
+  }
+} 
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .carousel {
+    width: 65vw;
+    margin-left: 9vw;
+    margin-top: 0vh;
+  }
+
+  .slidecaption {
+    font-size: 1.7rem;
+  }
+
+  .portfolioheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 12vh;
     width: 100vw;
     background-color: black;
     color: white;
@@ -170,15 +215,18 @@ margin-left: 11rem;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: 15rem;
-    margin-top: 0rem;
+    margin-top: -1rem;
   }
   
   .portfoliolinks > a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-left: 3rem;
     color: white;
   }
 } 
+
+
+
 
 
 
