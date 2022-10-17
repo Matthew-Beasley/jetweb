@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Contact from './Contact';
-//import Services from './Services';
+import Services from './Services';
 import Profile from './Profile';
 import Portfolio from './Portfolio';
 import reportWebVitals from './reportWebVitals';
@@ -15,6 +15,7 @@ import './App.css';
 import './Contact.css';
 import './Profile.css';
 import './Portfolio.css';
+import './Services.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,7 @@ root.render(
     <Routes>
       <Route exact path='/' element={<App />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
-     {/*} <Route path='/services' element={<Services />}></Route>*/}
+      <Route path='/services' element={<Services />}></Route>
       <Route path='/profile' element={<Profile />}></Route>
       <Route path='/portfolio' element={<Portfolio />}></Route>
     </Routes>

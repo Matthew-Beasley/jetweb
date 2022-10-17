@@ -1,0 +1,417 @@
+
+.serviceswrapper {
+    background-image: url('../public/codebackground.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .serviceswrapper .contactheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12vh;
+    max-width: 100vw;
+    background-color: black;
+    color: white;
+  }
+  
+  .serviceswrapper .contactheadertext {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .serviceswrapper .contactlinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  
+  .serviceswrapper a {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 6rem;
+  }
+  
+  .servicescontactcontent {
+    height: 12vh;
+  }
+  
+  .servicespitch {
+    border: black 2px solid;
+    background-color: blanchedalmond;
+    width: 55vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+  }
+  
+  .servicesqualifications {
+    border: black 2px solid;
+    background-color: blanchedalmond;
+    width: 75vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    padding: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 2001px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 3rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 2rem;
+      margin-left: 7rem;
+      margin-top: 1rem;
+    }
+  
+    .servicespitch {
+      border: black 2px solid;
+      background-color: blanchedalmond;
+      width: 50vw;
+      margin-left: 5vw;
+      margin-top: 5rem;
+      padding: 1rem;
+    }
+  
+    .servicesqualifications {
+      border: black 2px solid;
+      background-color: blanchedalmond;
+      width: 65vw;
+      margin-left: 5vw;
+      margin-top: 3vw;
+      padding: 1rem;
+    }
+  
+    .servicescontent {
+      margin-top: -40rem;
+    }
+  
+    .servicescontent p {
+      font-size: 2rem;
+    }
+  
+    .servicesqualifications {
+      height: 20vh;
+      overflow-x: scroll;
+    } 
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 2000px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 2.9rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 2rem;
+      margin-left: 7rem;
+      margin-top: 1rem;
+    }
+  
+    .servicescontent {
+      margin-top: -17rem;
+    }
+  
+    .servicescontent p {
+      font-size: 1.3rem;
+    }
+  
+    .servicesqualifications {
+      height: 26vh;
+      overflow-x: scroll;
+    } 
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1600px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 2.7rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+    }
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 1.6rem;
+      margin-left: 5rem;
+      margin-top: 1.6rem;
+    }
+  
+    .servicescontent {
+      margin-top: -12rem;
+    }
+  
+    .servicescontent p {
+      font-size: 1.5rem;
+    }
+  
+    .servicesqualifications {
+      height: 25vh;
+      overflow-x: scroll;
+    } 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 2.2rem;
+      margin-top: 1.5rem;
+      margin-left: 3rem;
+    }
+  
+    .serviceswrapper .contactlinks {
+      margin-left: -1rem;
+    } 
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 1.45rem;
+      margin-left: 5rem;
+      margin-top: 1.8rem;
+    }
+  
+    .servicescontent {
+      margin-top: -14rem;
+    }
+  
+    .servicescontent p {
+      font-size: 1.2rem;
+    }
+  
+    .servicesqualifications {
+      height: 25vh;
+      overflow-x: scroll;
+    } 
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 900px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 1.5rem;
+      margin-top: .7rem;
+      margin-left: 2rem;
+    }
+  
+    .serviceswrapper .contactlinks {
+      margin-left: -1rem;
+    } 
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: .9rem;
+      margin-left: 3rem;
+      margin-top: .4rem;
+    }
+  
+    .servicescontent {
+      margin-top: -9rem;
+    }
+  
+    .servicescontent p {
+      font-size: .8rem;
+    }
+  
+    .servicespitch {
+      height: 25vh;
+      overflow-x: scroll;
+    }
+  
+    .servicesqualifications {
+      height: vh;
+      overflow-x: scroll;
+    } 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 500px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 1.5rem;
+      margin-top: 1.2rem;
+      margin-left: .5rem;
+    }
+  
+    .serviceswrapper .contactlinks {
+      margin-left: -4.2rem;
+    } 
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: 1rem;
+      margin-left: 1.9rem;
+      margin-top: 2rem;
+    }
+  
+    .servicescontent {
+      margin-top: 2rem;
+    }
+  
+    .servicespitch {
+      overflow-x: scroll;
+      width: 91.5vw;
+      height: 10rem;
+      margin-right: .4vw;
+    }
+  
+    .servicescontent p {
+      font-size: .9rem;
+    }
+  
+    .servicesqualifications {
+      overflow-x: scroll;
+      width: 91.5vw;
+      height: 10rem;
+      margin-right: .4vw;
+    } 
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 400px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+  
+    .serviceswrapper .contactlinks {
+      margin-left: -4rem;
+    } 
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: .8rem;
+      margin-left: 1.9rem;
+      margin-top: 1.4rem;
+    }
+  
+    .servicescontent {
+      margin-top: 0rem;
+    }
+  
+    .servicespitch {
+      overflow-x: scroll;
+      width: 96vw;
+      height: 10rem;
+      margin-left: .5rem;
+    }
+  
+    .servicescontent p {
+      font-size: .8rem;
+    }
+  
+    .servicesqualifications {
+      overflow-x: scroll;
+      width: 96vw;
+      height: 10rem;
+      margin-left: .5rem;
+    } 
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 350px) {
+    .serviceswrapper .contactheadertext {
+      font-size: 1.1rem;
+      margin-top: .7rem;
+      margin-left: .5rem;
+    }
+  
+    .serviceswrapper .contactlinks {
+      margin-left: -3rem;
+    } 
+    
+    .serviceswrapper .contactlinks a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: .7rem;
+      margin-left: 1rem;
+      margin-top: .7rem;
+    }
+  
+    .servicescontent {
+      margin-top: 0rem;
+    }
+  
+    .servicespitch {
+      overflow-x: scroll;
+      width: 78.5%;
+      height: 7rem;
+      margin-left: .5rem;
+    }
+  
+    .servicescontent p {
+      font-size: .65rem;
+    }
+  
+    .servicesqualifications {
+      overflow-x: scroll;
+      width: 78.5%;
+      height: 8rem;
+      margin-left: .5rem;
+    } 
+  }  
+  
+  
