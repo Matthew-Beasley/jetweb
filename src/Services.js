@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import headshot from './images/head-shot.jpg';
+import raw from 'raw.macro';
 
 const Services = () => {
-  const pitch1 = 'I provide freelance full stack web development services with 12 years experience in software development and testing.'
-  const pitch2 = 'By leveraging the capabilities of modern components and frameworks I can bring your ideas to life. From compelling responsive web sites that will delight your audience to high performance backend components like API’s and Databases.'
-  const qualification1 = 'I have been involved in software development for 12 years, 2 years as a full stack web developer and 10 years as a software test automation engineer. During that time I have worked for top tier companies like Getty Images, Real Networks, and as a contractor to Google and Microsoft.';
-  const qualification2 = 'I currently specialize in React Hooks and JavaScript for frontend development, as well as HTML5 and CSS. I use JavaScript, ExpressJS server, Mongo, Redis, and Postgres databases on the backend. When creating API’s I use ExpressJS, Axios, and JSON objects. To handle Ecommerce credit card services and shopping cart I use Foxycart services. For email services I work with Mailgun smpt mail provider and emailJS. I deploy to Heroku and DigitalOcean hosting services, and use Google Domains to purchase domain names and handle DNS services.';
+  const[pitch1, setPitch1] = useState('');
+  const [pitch2, setPitch2] = useState('');
+  const [pitch3, setPitch3] = useState('');
 
+  useEffect(() => {
+    const text1 = raw('./servicespitch1.txt');
+    const text2 = raw('./servicespitch2.txt');
+    const text3 = raw('./servicespitch3.txt');
+      setPitch1(text1);
+      setPitch2(text2);
+      setPitch3(text3);
+  }, []);
+
+  useEffect(() => {
+    console.log(pitch1)
+  },[pitch1]);
+  
   return (
     <div className='serviceswrapper'>
       <div className='contactheader'>
@@ -23,10 +35,7 @@ const Services = () => {
         <div className='servicespitch'>
           <p>{pitch1}</p>
           <p>{pitch2}</p>
-        </div>
-        <div className='servicesqualifications'>
-          <p>{qualification1}</p>
-          <p>{qualification2}</p>
+          <p>{pitch2}</p>
         </div>
       </div>
     </div>
