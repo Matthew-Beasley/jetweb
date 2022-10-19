@@ -1,24 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import raw from 'raw.macro';
+//import raw from 'raw.macro';
+import raw from './servicespitch.txt';
 
 const Services = () => {
-  const[pitch1, setPitch1] = useState('');
-  const [pitch2, setPitch2] = useState('');
-  const [pitch3, setPitch3] = useState('');
+  const [introHeader, setIntroHeader] = useState('');
+  const [intro, setIntro] = useState('');
+  const [frontEndHeader, setFrontEndHeader] = useState(''); 
+  const [frontEnd, setFrontEnd] = useState('');
+  const [backEndHeader, setBackEndHeader] = useState('');
+  const [backEnd, setBackEnd] = useState('');
 
   useEffect(() => {
-    const text1 = raw('./servicespitch1.txt');
-    const text2 = raw('./servicespitch2.txt');
-    const text3 = raw('./servicespitch3.txt');
-      setPitch1(text1);
-      setPitch2(text2);
-      setPitch3(text3);
-  }, []);
+    fetch(raw)
+    .then(r => r.text())
+    .then(text => {
+      const lines = text.split('newline');
+      setIntroHeader(lines[0]);
+      setIntro(lines[1]);
+      setFrontEndHeader(lines[2]);
+      setFrontEnd(lines[3]);
+      setBackEndHeader(lines[4])
+      setBackEnd(lines[5]);
+      console.log('text decoded:', text);
+    });
+  },[]);
 
-  useEffect(() => {
-    console.log(pitch1)
-  },[pitch1]);
+  const test = ''
   
   return (
     <div className='serviceswrapper'>
@@ -27,16 +35,17 @@ const Services = () => {
         <div className='contactlinks'>
           <Link to='/'>Home</Link>
           <Link to='/profile'>Profile</Link>
-          <Link to='/services'>Portfolio</Link>
+          <Link to='/portfolio'>Portfolio</Link>
           <Link to='/contact'>Contact</Link>
         </div>
       </div>
       <div className='servicescontent' >
-        <div className='servicespitch'>
-          <p>{pitch1}</p>
-          <p>{pitch2}</p>
-          <p>{pitch2}</p>
-        </div>
+        <h2><b>{introHeader}</b></h2>
+        <p>{intro}</p>
+        <h2><b>{frontEndHeader}</b></h2>
+        <p>{frontEnd}</p>
+        <h2><b>{backEndHeader}</b></h2>
+        <p>{backEnd}</p>
       </div>
     </div>
   )

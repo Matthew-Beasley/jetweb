@@ -1,7 +1,7 @@
 
 
 .profilewrapper {
-  background-image: url('../public/codebackground.jpg');
+  background-image: url('./images/strokebackground.jpg');
   background-size: cover;
   height: 100vh;
 }
@@ -74,7 +74,7 @@
 
 .profilepitch {
   border: black 2px solid;
-  background-color: blanchedalmond;
+  background-color: white;
   width: 55vw;
   margin-left: 5vw;
   margin-top: 3vw;
@@ -83,7 +83,7 @@
 
 .profilequalifications {
   border: black 2px solid;
-  background-color: blanchedalmond;
+  background-color: white;
   width: 75vw;
   margin-left: 5vw;
   margin-top: 3vw;
@@ -114,7 +114,7 @@
   .profilephone {
     height: 3rem;
     width: 55vw;
-    color: white;
+    color: black;
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-left: 35vw;
@@ -125,7 +125,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 5rem;
-    color: white;
+    color: black;
     font-size: 2.5rem;
     z-index: 2;
   }
@@ -141,7 +141,7 @@
 
   .profilepitch {
     border: black 2px solid;
-    background-color: blanchedalmond;
+    background-color: white;
     width: 50vw;
     margin-left: 5vw;
     margin-top: 5rem;
@@ -150,7 +150,7 @@
 
   .profilequalifications {
     border: black 2px solid;
-    background-color: blanchedalmond;
+    background-color: white;
     width: 65vw;
     margin-left: 5vw;
     margin-top: 3vw;
@@ -177,7 +177,7 @@
 
 
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (max-width: 2000px) {
   .profilewrapper .contactheadertext {
     font-size: 2.9rem;
     margin-top: 1rem;
@@ -196,7 +196,7 @@
   .profilephone {
     height: 3rem;
     width: 55vw;
-    color: white;
+    color: black;
     font-size: 2.2rem;
     margin-top: 4rem;
     margin-left: 35vw;
@@ -207,7 +207,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 4rem;
-    color: white;
+    color: black;
     font-size: 2.2rem;
     z-index: 2;
   }
@@ -244,10 +244,10 @@
 
 
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1800px) {
   .profilewrapper .contactheadertext {
-    font-size: 2.7rem;
-    margin-top: 1rem;
+    font-size: 2.4rem;
+    margin-top: .6rem;
     margin-left: 3rem;
   }
   
@@ -257,13 +257,13 @@
     flex-wrap: nowrap;
     font-size: 1.6rem;
     margin-left: 5rem;
-    margin-top: 1.6rem;
+    margin-top: .5rem;
   }
 
   .profilephone {
     height: 3rem;
     width: 55vw;
-    color: white;
+    color: black;
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-left: 35vw;
@@ -274,7 +274,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 5rem;
-    color: white;
+    color: black;
     font-size: 1.8rem;
     z-index: 2;
   }
@@ -321,21 +321,22 @@
 
   .profilewrapper .contactlinks {
     margin-left: -1rem;
+    margin-top: 1.8rem;
   } 
   
   .profilewrapper .contactlinks a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     margin-left: 5rem;
-    margin-top: 1.8rem;
+    margin-top: 1rem;
   }
 
   .profilephone {
     height: 3rem;
     width: 55vw;
-    color: white;
+    color: black;
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-left: 35vw;
@@ -346,7 +347,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 2rem;
-    color: white;
+    color: black;
     font-size: 1.8rem;
     z-index: 2;
   }
@@ -400,7 +401,7 @@
   .profilephone {
     height: 3rem;
     width: 55vw;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     margin-top: 2rem;
     margin-left: 15vw;
@@ -411,7 +412,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 2rem;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     z-index: 2;
   }
@@ -472,7 +473,7 @@
   .profilephone {
     height: 3rem;
     width: 100vw;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     margin-top: 5rem;
     margin-left: 2rem;
@@ -483,7 +484,7 @@
     width: 20vw;
     margin-left: 7vw;
     margin-top: 2.5rem;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     z-index: 2;
   }
@@ -547,7 +548,7 @@
   .profilephone {
     height: 3rem;
     width: 100vw;
-    color: white;
+    color: black;
     font-size: 1rem;
     margin-top: 4rem;
     margin-left: 2rem;
@@ -558,7 +559,7 @@
     width: 20vw;
     margin-left: 5vw;
     margin-top: 4rem;
-    color: white;
+    color: black;
     font-size: 1rem;
     z-index: 2;
   }
@@ -624,7 +625,7 @@
   .profilephone {
     height: 3rem;
     width: 100vw;
-    color: white;
+    color: black;
     font-size: 1rem;
     margin-top: 4.5rem;
     margin-left: .5rem;
@@ -635,7 +636,7 @@
     width: 20vw;
     margin-left: 7vw;
     margin-top: 2rem;
-    color: white;
+    color: black;
     font-size: 1rem;
     z-index: 2;
   }

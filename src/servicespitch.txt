@@ -1,0 +1,19 @@
+Introduction to avalable services newline 
+
+As a Full Stack developer I can create an entire web application. This includes creating the front end or visual 
+web servers that provide API's, and databases. I host web apps on Heroku or DigitalOcean hosting services. I prefer to work with google domains for name server newline
+
+Front end services newline
+
+I provide web browser experiences featuring dynamic pages, and multipage applications. Although I prefer to work with your
+layout and assets, I can provide some design and images. My front ends are custom coded providing the greatest flexibility in
+function. I use the React development framework that creates extremly fast sites and shorten development time for lower 
+costs to you. The web applications can be stand alone or in conjuntion with a backend server. newline
+
+Backend services newline
+
+I can provide backend services including Private or public API's to give your existing web sites additional functionality, or 
+public API's consumption to be sold as a service or consumed within you orginsation. I also create Databases for information 
+storage such as inventory or clients. I use the JavaScript programming language for my backend code to increase efficiency. 
+I can create Databases using the older SQL architecture capable of handling larger datasets, or a document orientated database 
+that shortens development time.

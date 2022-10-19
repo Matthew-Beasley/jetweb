@@ -1,6 +1,6 @@
 
 .serviceswrapper {
-    background-image: url('../public/codebackground.jpg');
+    background-image: url('./images/strokebackground.jpg');
     background-size: cover;
     height: 100vh;
   }
@@ -39,9 +39,9 @@
     height: 12vh;
   }
   
-  .servicespitch {
+  .servicescontent {
     border: black 2px solid;
-    background-color: blanchedalmond;
+    background-color: white;
     width: 55vw;
     margin-left: 5vw;
     margin-top: 3vw;
@@ -50,7 +50,7 @@
   
   .servicesqualifications {
     border: black 2px solid;
-    background-color: blanchedalmond;
+    background-color: white;
     width: 75vw;
     margin-left: 5vw;
     margin-top: 3vw;
@@ -78,36 +78,19 @@
     margin-top: 1rem;
   }
 
-  .servicespitch {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 65vw;
-    margin-left: 5vw;
-    margin-top: 50rem;
-    padding: 1rem;
-  }
-
-  .servicesqualifications {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 65vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-  }
-
   .servicescontent {
-    margin-top: -40rem;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
   }
 
   .servicescontent p {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
-
-  .servicesqualifications {
-    height: 25vh;
-    overflow-x: scroll;
-  } 
 }
   
   
@@ -132,36 +115,19 @@
   margin-top: 1rem;
 }
 
-.servicespitch {
+.servicescontent {
     border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 75vw;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
     margin-left: 5vw;
-    margin-top: 45rem;
+    margin-top: 4rem;
     padding: 1rem;
-  }
-
-  .servicesqualifications {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 75vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-  }
-
-  .servicescontent {
-    margin-top: -40rem;
   }
 
   .servicescontent p {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
-
-  .servicesqualifications {
-    height: 30vh;
-    overflow-x: scroll;
-  } 
 }
   
   
@@ -171,51 +137,34 @@
   
   
 @media only screen and (max-width: 1600px) {
-.serviceswrapper .contactheadertext {
-  font-size: 2.7rem;
-  margin-top: 1rem;
-  margin-left: 3rem;
-}
-
-.serviceswrapper .contactlinks a {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  font-size: 1.7rem;
-  margin-left: 5rem;
-  margin-top: 1.6rem;
-}
-
-.servicespitch {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 75vw;
-    margin-left: 5vw;
-    margin-top: 50rem;
-    padding: 1rem;
+  .serviceswrapper .contactheadertext {
+    font-size: 2.7rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
   }
 
-  .servicesqualifications {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 75vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
+  .serviceswrapper .contactlinks a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.7rem;
+    margin-left: 5rem;
+    margin-top: 1.6rem;
   }
 
   .servicescontent {
-    margin-top: -45rem;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
   }
 
   .servicescontent p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
-
-  .servicesqualifications {
-    height: 35vh;
-    overflow-x: scroll;
-  } 
 }
   
   
@@ -227,9 +176,9 @@
   
 @media only screen and (max-width: 1300px) {
   .serviceswrapper .contactheadertext {
-    font-size: 2.2rem;
-    margin-top: 1.5rem;
-    margin-left: 3rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
   }
 
   .serviceswrapper .contactlinks {
@@ -240,41 +189,28 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: 1.45rem;
+    font-size: 1.1rem;
     margin-left: 5rem;
-    margin-top: 1.8rem;
+    margin-top: 1.2rem;
   }
   
-  .servicespitch {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 85vw;
-    margin-left: 5vw;
-    margin-top: 45rem;
-    padding: 1rem;
-  }
-
-  .servicesqualifications {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 85vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-  }
-
   .servicescontent {
-    margin-top: -40rem;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
   }
 
   .servicescontent p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
-  .servicesqualifications {
-    height: 25vh;
-    overflow-x: scroll;
-  } 
+  h2 {
+    font-size: 1.3rem;
+  }
 }
   
   
@@ -301,36 +237,19 @@
     margin-top: .8rem;
   }
 
-  .servicespitch {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 90vw;
-    margin-left: 5vw;
-    margin-top: 43rem;
-    padding: 1rem;
-  }
-
-  .servicesqualifications {
-    border: black 2px solid;
-    background-color: blanchedalmond;
-    width: 90vw;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    padding: 1rem;
-  }
-
   .servicescontent {
-    margin-top: -40rem;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
   }
 
   .servicescontent p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
-
-  .servicesqualifications {
-    height: 25vh;
-    overflow-x: scroll;
-  }  
 }
   
   
@@ -361,27 +280,19 @@
   }
 
   .servicescontent {
-    margin-top: -40rem;
-  }
-
-  .servicespitch {
-    overflow-x: scroll;
-    width: 91.5vw;
-    height: 10rem;
-    margin-right: .4vw;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    max-height: 80vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
+    overflow: scroll;
   }
 
   .servicescontent p {
-    font-size: .9rem;
+    font-size: 1rem;
   }
-
-  .servicesqualifications {
-    overflow-x: scroll;
-    width: 91.5vw;
-    height: 20rem;
-    margin-right: .4vw;
-    margin-top: 2rem;
-  } 
 }
 
   
@@ -410,27 +321,22 @@
   }
 
   .servicescontent {
-    margin-top: -41rem;
+    border: black 2px solid;
+    background-color: white;
+    width: 90vw;
+    min-height: 40vh;
+    margin-left: 5vw;
+    margin-top: 4rem;
+    padding: 1rem;
   }
 
-  .servicespitch {
-    overflow-x: scroll;
-    width: 91vw;
-    height: 10rem;
-    margin-right: .4vw;
+  h2 {
+    font-size: 1rem;
   }
 
   .servicescontent p {
-    font-size: .9rem;
+    font-size: .8rem;
   }
-
-  .servicesqualifications {
-    overflow-x: scroll;
-    width: 91vw;
-    height: 20rem;
-    margin-right: .4vw;
-    margin-top: 2rem;
-  } 
 }  
   
   
@@ -461,26 +367,22 @@
     }
   
     .servicescontent {
-      margin-top: -41.5rem;
+      border: black 2px solid;
+      background-color: white;
+      width: 90vw;
+      min-height: 40vh;
+      margin-left: 5vw;
+      margin-top: 4rem;
+      padding: 1rem;
     }
-  
-    .servicespitch {
-      overflow-x: scroll;
-      width: 95%;
-      height: 9rem;
-      margin-left: .5rem;
+
+    h2 {
+      font-size: .8rem;;
     }
   
     .servicescontent p {
-      font-size: .79rem;
+      font-size: .8rem;
     }
-  
-    .servicesqualifications {
-      overflow-x: scroll;
-      width: 95%;
-      height: 13rem;
-      margin-left: .5rem;
-    } 
   }  
   
   

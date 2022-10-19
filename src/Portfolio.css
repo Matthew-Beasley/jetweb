@@ -1,5 +1,5 @@
 .portfoliowrapper {
-  background-image: url('../public/contact-background.jpg');
+  background-image: url('./images/strokebackground.jpg');
   min-height: 100vh;
 }
 
