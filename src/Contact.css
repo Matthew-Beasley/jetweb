@@ -629,8 +629,9 @@
   }
 
   .textinputs {
-    width: 100vw;
-    position: relative;
+    width: 80vw;
+    margin-left: 10vw;
+    position: center;
     display: flex;
     flex-direction: column;
   }
@@ -742,8 +743,9 @@
   }
 
   .textinputs {
-    width: 100vw;
-    position: relative;
+    width: 80vw;
+    margin-left: 10vw;
+    position: center;
     display: flex;
     flex-direction: column;
   }
@@ -857,8 +859,9 @@
   }
 
   .textinputs {
-    width: 100vw;
-    position: relative;
+    width: 80vw;
+    margin-left: 10vw;
+    position: center;
     display: flex;
     flex-direction: column;
   }
