@@ -442,9 +442,9 @@
   }
 
   .submitbutton {
-    width: 7rem;
-    height: 1.5rem;
-    font-size: 1.3rem;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
     line-height: 50%;
     margin-left: 45vw;
     margin-top: 5rem;
@@ -676,7 +676,7 @@
   .submitbutton {
     width: 6rem;
     height: 1.9rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 50%;
     margin-left: 40vw;
     margin-top: 2rem;
@@ -790,7 +790,7 @@
   .submitbutton {
     width: 6rem;
     height: 1.9rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 50%;
     margin-left: 40vw;
     margin-top: 2rem;
@@ -906,7 +906,7 @@
   .submitbutton {
     width: 6rem;
     height: 1.6rem;
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 50%;
     margin-left: 38vw;
     margin-top: 2rem;
