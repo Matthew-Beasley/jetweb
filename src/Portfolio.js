@@ -7,36 +7,46 @@ const Portfolio = () => {
 
   const data = [
     {
-     image: require('./images/thwartmehome.png'), 
-     caption:'https://www.thwartme.com/#/',
-     description:'Description Here'
+      image: require('./images/jetweb-search-api.png'), 
+      caption:'https://jetweb-search.cyclic.app/search?term=yamaha%20xt%20600&pages=3',
+      description:'Description Here'
+    },
+    {
+      image: require('./images/jetweb-search.png'), 
+      caption:'https://www.npmjs.com/package/jetweb-search',
+      description:'Description Here'
+    },
+    {
+      image: require('./images/thwartmehome.png'), 
+      caption:'https://www.thwartme.com/#/',
+      description:'Description Here'
     },
     {
       image:require('./images/thwartmegamepage.png'), 
       caption:'https://www.thwartme.com/#/gamepage',
       description:'Description Here'
-     },
-     {
+    },
+    {
       image:require('./images/ThwartMe.mp4'), 
       caption:'https://www.thwartme.com/#/rules',
       description:'Description Here'
-     },
-     {
-       image:require('./images/adoptpet.png'), 
-       caption:'Adopt-a-pet.surge.sh',
-       description:'Description Here'
-      },
-      {
-       image:require('./images/map.png'), 
-       caption:'http://trail-finder.surge.sh',
-       description:'Description Here'
-      },
-      {
-        image:require('./images/climbs.png'), 
-        caption:'http://trail-finder.surge.sh',
-        description:'Description Here'
-       }
-    ]
+    },
+    {
+      image:require('./images/adoptpet.png'), 
+      caption:'Adopt-a-pet.surge.sh',
+      description:'Description Here'
+    },
+    {
+      image:require('./images/map.png'), 
+      caption:'http://trail-finder.surge.sh',
+      description:'Description Here'
+    },
+    {
+      image:require('./images/climbs.png'), 
+      caption:'http://trail-finder.surge.sh',
+      description:'Description Here'
+    }
+  ]
   
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {

@@ -18,10 +18,10 @@ function App() {
       </div>
       <div className='rightpanel'>
        <div className='applinks'>
-        <Link to='/contact'>Contact</Link>
         <Link to='/services'>Services</Link>
         <Link to='/portfolio'>Portfolio</Link>
         <Link to='/profile'>Profile</Link>
+        <Link to='/contact'>Contact</Link>
        </div>
       </div>
     </div>
