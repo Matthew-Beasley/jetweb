@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Portfolio = () => {
 
   const data = [
-    {
+   /* {
       image: require('./images/jetweb-search-api.png'), 
       caption:'https://jetweb-search.cyclic.app/search?term=yamaha%20xt%20600&pages=3',
       description:'Description Here'
@@ -15,7 +15,7 @@ const Portfolio = () => {
       image: require('./images/jetweb-search.png'), 
       caption:'https://www.npmjs.com/package/jetweb-search',
       description:'Description Here'
-    },
+    },*/
     {
       image: require('./images/thwartmehome.png'), 
       caption:'https://www.thwartme.com/#/',
