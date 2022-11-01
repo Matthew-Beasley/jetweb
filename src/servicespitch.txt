@@ -1,7 +1,8 @@
 Introduction to avalable services newline 
 
-As a Full Stack developer I can create an entire web application. This includes creating the web pages
-web servers that provide API's, and databases. I host web apps on Heroku or DigitalOcean hosting services. I prefer to work with google domains for name server newline
+As a Full Stack developer I can create an entire web application. This includes creating theweb servers that 
+provide API's, and databases. I host web apps on Heroku or DigitalOcean hosting services. I prefer to work with 
+google domains for name server newline
 
 Front end services newline
 
